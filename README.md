@@ -59,3 +59,9 @@ You may use AWS CloudFormation to manage your infrastructure, but Terraform is t
 If you want to further customize Fluentd, you should be familiar with its configuration. This may involve adding log parsing or filters to forward logs from your application to Elasticsearch.
 Once all the prerequisites are set up, you can move on to provisioning the infrastructure, deploying the stack, and monitoring your application logs using the EFK stack!
 
+clone the Repo 
+
+Terraform init
+Terraform apply -auto-approve
+
+
